@@ -1,0 +1,386 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow: visible;
+  position: relative;
+}
+nav {
+  overflow: hidden;
+}
+.carousel {
+  position: relative;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.carousel .carousel-half-left {
+  background-color: #f6f8fe;
+  position: absolute;
+  width: 60%;
+  height: 600px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.carousel .carousel-half-left h1 {
+  text-align: center;
+  font-size: 75px;
+  margin: 40px 0;
+}
+
+.carousel .carousel-half-right {
+  background-color: #f7c0c4;
+  position: absolute;
+  width: 15%;
+  height: 600px;
+  top: 0;
+  left: 60%;
+}
+
+.carousel .carousel-half-rightmost {
+  background-color: #f6f8fe;
+  position: absolute;
+  width: 25%;
+  height: 600px;
+  top: 0;
+  right: 0;
+}
+
+.carousel .profile-pic {
+  position: absolute;
+  top: 17.67%;
+  left: 50.27%;
+  background-image: url(./assets/IMG_1527-removebg-preview.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 500px;
+  /* border-radius: 100%;  */
+
+  overflow: hidden;
+}
+/* .carousel img{
+  max-width: 100%;
+  height: 100%; 
+  z-index: 40;
+  border-radius: 100%;
+  
+} */
+.about-me {
+  background-color: white;
+  box-sizing: border-box;
+}
+.about-me > div {
+  position: relative;
+  width: 60%;
+  min-height: 150px;
+  background-color: white;
+  top: -60px;
+  left: 20%;
+  box-shadow: 5px 5px 20px #232940;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 0;
+  /* flex-grow: 1;  */
+}
+
+.about-me .about-me_introduction {
+  border-right: 4px dotted #232940;
+  flex: 2;
+  padding: 0 40px;
+}
+
+.about-me .education {
+  padding: 0 40px;
+
+  flex: 1;
+}
+.about-me h4 {
+  color: #f7c0c4;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: rgba(255, 255, 255, 0);
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+#navbar {
+  align-items: stretch;
+}
+
+.navbar-nav {
+  flex: 1;
+}
+
+.language {
+  /* background-color: #f6f8fe; */
+  text-align: center;
+
+  /* background-image: url(./skill-bg.jpg); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  /* opacity: 0.2; */
+  color: white;
+}
+.background__sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(./assets/skill-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.language img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 1;
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
+}
+
+.language .background {
+  background-color: rgba(0, 0, 0);
+  padding: 90px 0;
+  opacity: 0.7;
+}
+
+.language h1,
+div,
+i {
+  z-index: 20;
+}
+
+.language .container {
+  justify-content: space-around;
+  display: flex;
+  /* align-items: stretch; */
+  padding: 0 20px;
+}
+
+.language h1 {
+  padding: 20px 0;
+  z-index: 30;
+}
+
+.language .container .lang-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 30%;
+  padding: 40px 0;
+  /* max-width:  */
+
+  /* flex-grow: 1; */
+  border: 0.5px solid white;
+  min-height: 200px;
+  /* padding: 40px 0; */
+}
+
+.language .container .lang-item i {
+  padding-bottom: 30px;
+}
+
+.language .container .lang-item ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.current-project {
+  padding-top: 120px;
+  background-color: #f6f8fe;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.current-project h1 {
+  font-weight: 900;
+  padding-left: 210px;
+}
+
+.current-project p {
+  color: dimgray;
+  font-size: 14px;
+  padding-left: 210px;
+}
+.current-project .project__container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 120px;
+}
+
+.current-project .project__container .project-item {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.current-project .project__container .project-item img {
+  object-fit: contain;
+  width: 100%;
+  filter: drop-shadow(0 -6mm 4mm rgb(176, 169, 179));
+}
+.current-project .slider {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* padding: 0 100px; */
+}
+.current-project .slider button {
+  width: 150px;
+  background-color: #f7c0c4;
+
+  border: none;
+  padding: 10px 30px;
+  margin: 0 30px;
+}
+footer {
+  background-color: #f6f8fe;
+  padding-top: 250px;
+}
+.footer-bg {
+  background-color: #232940;
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 220px;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 300px; */
+}
+
+footer .contact {
+  /* position: absolute; */
+  background-color: #f6f8fe;
+  /* min-height: 60%; */
+  width: 60%;
+  /* bottom: 20px;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-weight: bold;
+  /* position: relative; */
+  /* padding-top: 120px; */
+}
+
+footer .contact .address {
+  margin-right: 100px;
+}
+
+footer .contact div {
+  /* flex-grow: 1; */
+}
+
+footer .contact .phone {
+  flex-grow: 3;
+}
+
+footer .copyright {
+  margin-top: 40px;
+  color: white;
+  align-self: center;
+}
+
+footer .hire-me {
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  left: 15%;
+  top: -35%;
+  background-color: #232940;
+  border: 2px solid whitesmoke;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .hire-me button {
+  margin-top: 20px;
+  background-color: #f7c0c4;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 578px) {
+  /* .carousel .profile-pic{
+    left: 20px; 
+    top: 400px; 
+    position: relative; 
+  } */
+
+  
+  .about-me .container_introduction {
+    display: block; 
+    width: 80%; 
+    left: 10%; 
+   
+  }
+
+  .about-me h4{
+    text-align: center; 
+    font-size: 35px; 
+  }
+
+  .about-me p{
+    font-size: 25px; 
+  }
+
+  .about-me .about-me_introduction{
+    border: none; 
+  }
+
+  .about-me .education p{
+    margin: 0px; 
+   
+  }
+}
+
+/* @media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+} */

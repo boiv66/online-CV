@@ -11,39 +11,54 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */14
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */1 Advanced feature
-- */3 Responsive layout
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 1/1 Advanced feature
+- 3/3 Responsive layout
 - */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
+    1) At least one image, with descriptive alt atribute(s)
+    2) Semantic HTML tags like aside or foot (I have section and footer tag)
+    3) I added multiple icons from Font Awesome
+    4) Appropriate headings and paragraph text 
 
 
 
 (b) CSS features
+    1) Modifying padding and margins to indent content and enhance readability
+    2) Modifying link, text color, or other colors to be visually appealing.
+    3) leverage Bootstrap for Navigation bar 
+    4) Adding customized font from Google Font (Roboto)
 
 
 
 (c) Advanced features
+    1) Including navigation bar 
+    2) Leverage nested selector using ">"
+    3) A contact form which leverages HTML forms
+
 
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+    - I think totally around 10 hours. 
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
+    - Stackoverflow
+    - Mozilla 
+    - W3School
+    
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
+    - No. I did it myself 
 
 
-
-6. Is there anything special we need to know in order to run your code?
-
+6. Is there anything special we need to know in order to run your code?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    - Open index.html in browser
